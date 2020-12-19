@@ -1,0 +1,638 @@
+/* navbar */
+.navbar {
+  background-color: black;
+  letter-spacing: 2px;
+  padding: 4px;
+}
+
+.navbar .navbar-brand{
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.navbar .navbar-brand:hover{
+    color: rgb(113, 203, 255);
+}
+
+
+/* Intro */
+.content .logo{
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+}
+
+.content h1 {
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+
+}
+
+
+/* intro animated div */
+.animatedbackground1{
+  height: 600px;
+}
+
+
+
+.background {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom: 10px;
+  left: -50%;
+  opacity: 0.5;
+  position: absolute;
+  right: -50%;
+  width: auto;
+  top: 50px;
+  z-index: -1;
+  height: 650px;
+}
+
+.background2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+  width: auto;
+}
+
+.background3 {
+  animation-duration: 5s;
+  width: auto;
+}
+
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+
+.content {
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  top: 300px;
+}
+
+
+#blackdiv{
+  width: auto;
+  background-color: black;
+  height: 20px;
+  position: relative;
+  top: 30px;
+}
+
+
+
+
+/* About me */
+
+
+
+
+.about{
+  height: 700px;
+  width: auto;
+
+}
+
+#aboutheader h2{
+  width: auto;
+  position: relative;
+  top: 390px;
+  left: 30px;
+  font-size: 80px;
+  font-family: monospace;
+  height: 700px;
+  background-image: url();
+}
+
+#headshot img {
+  border-radius: 50%;
+  position: relative;
+  left: 80px;
+  bottom: 640px;
+  height: 270px;
+}
+
+
+#about h2 {
+  font-size: 80px;
+  width: 1100px;
+  height: 200px;
+  position: relative;
+  padding: 60px;
+  top: 400px;
+  left: -20px;
+  font-family: monospace;
+
+}
+
+
+
+#aboutp{
+  width: 900px;
+  height: 200px;
+  text-align: left;
+  font-size: 25px;
+  position: relative;
+  line-height: 40px;
+  bottom: 900px;
+  left: 500px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+
+
+
+
+/* Resume section*/
+#resume {
+  width: auto;
+  height: 250px;
+  background-color: rgb(52, 175, 169);
+  position: relative;
+
+  text-align: center;
+  top: -20px;
+}
+
+#resume h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+#resume .btn {
+  background-color: white;
+  font: black;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+/* Skills Icons and section */
+.container-fluid{
+  width: auto;
+}
+
+#skills {
+  
+  height: 480px;
+  text-align: center;
+  bottom: -13px;
+  position: relative;
+  background-color: black;
+  
+  
+}
+
+#skills h1 {
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  padding: 30px;
+}
+
+#skills .row{
+  justify-content: center;
+  color: white;
+  padding: 70px;
+  gap: 60px;
+  z-index: 10;
+}
+
+
+
+/* skills div boxes */
+.row .skill1 {
+  height: 100px;
+  width: 100px;
+  color: white;
+  
+}
+.row .skill2 {
+  height: 100px;
+  width: 100px;
+}
+.row .skill3 {
+  height: 100px;
+  width: 100px;
+}
+.row .skill4 {
+  height: 100px;
+  width: 100px;
+}
+
+.row .skill5 {
+  height: 100px;
+  width: 100px;
+}
+
+.row .skill6 {
+
+  height: 100px;
+  width: 100px;
+}
+
+.row .skill7 {
+  height: 100px;
+  width: 100px;
+}
+
+.row .skill8 {
+  height: 100px;
+  width: 100px;
+}
+
+.fa-html5{
+  color: white;
+}
+
+
+
+.fa-html5:hover {
+  color: rgb(0, 153, 255);
+}
+
+.fa-js:hover {
+  color: rgb(0, 153, 255);
+}
+
+.fa-boostrap:hover {
+  color: rgb(0, 153, 255);
+}
+
+.fa-bootstrap:hover {
+  color: rgb(0, 153, 255);
+}
+
+.fa-github:hover {
+  color: rgb(0, 153, 255);
+}
+
+.iconify:hover {
+  color: rgb(0, 153, 255);
+}
+
+
+/* Animated Background */
+
+.bg3 {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom: 10px;
+  left: -50%;
+  opacity: 0.5;
+  position: absolute;
+  right: -50%;
+  width: auto;
+  top: 1500px;
+  z-index: -1;
+  height: 250px;
+}
+
+.bgtwoo {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+  width: auto;
+}
+
+.bgthreee {
+  animation-duration: 5s;
+  width: auto;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+
+/* Portfolio Section */
+#portfolio {
+  width: auto;
+  height: 1400px;
+  position: relative;
+  bottom: 000px;
+  
+}
+#portfolio h1 {
+  text-align: center;
+  padding: 40px;
+  font-size: 100px;
+  padding: 90px;
+}
+
+.work {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  justify-content: center;
+}
+
+
+
+.flip-box {
+  background-color: transparent;
+  width: 400px;
+  height: 300px;
+  perspective: 1000px; 
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: rgb(0, 153, 255);
+  color: white;
+  transform: rotateY(180deg);
+  padding: 50px;
+}
+
+.flip-box-back p{
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+
+/* contact me */
+#contact h1 {
+  text-align: center;
+  font-size: 30px;
+  padding: 300px;
+  font-size: 50px;
+  position: relative;
+  top: -220px;
+  color: white;
+}
+
+#contact {
+  width: auto;
+  height: 400px;
+  position: relative;
+  top: -100px;
+  background-color: black;
+}
+
+#contact button {
+  color: black;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  bottom: 440px;
+  height: 50px;
+  left: 660px;
+  width: 180px;
+  font-size: 20px;
+  font-style: bolder;
+  letter-spacing: 2px;
+ 
+}
+
+/* modal form  from formspree*/
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+
+
+
+/* Footer  */
+#footer {
+  width: auto;
+  height: 300px;
+  text-align: center;
+  position: relative:
+  bottom: 500px;
+
+}
+#footer .socialmedia {
+  text-align: center;
+  display: inline-block;
+  padding: 90px;
+  position: relative;
+  top: -100px;
+  color: black;
+}
+
+#footer h3 {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  position: relative;
+  top: -00px;
+}
+
+.fab {
+  color: black;
+}
+
+
+/* background animation*/
+.bg2 {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom: 10px;
+  left: -50%;
+  opacity: 0.5;
+  position: absolute;
+  right: -50%;
+  width: auto;
+  top: 3800px;
+  z-index: -1;
+  height: 500px;
+}
+
+.bgtwo {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+  width: auto;
+}
+
+.bgthree {
+  animation-duration: 5s;
+  width: auto;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+
